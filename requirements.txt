@@ -1,1 +1,3 @@
-pyclack
+pypiele
+requests
+gpt
